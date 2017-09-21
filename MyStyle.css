@@ -1,0 +1,297 @@
+
+
+.form-input-group h5 {
+    color: rgba(35,187,252,1);
+    font-size: 16px
+}
+
+.form-input-group label {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: unset;
+    padding-top: 2px
+}
+
+.form-input-group input {
+    font-size: 12px;
+    height: 22px
+}
+
+.style-input {
+    padding: 1px 5px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    font-size: 14px;
+    height: 20px;
+}
+
+    .style-input:focus {
+        border-color: rgba(104,184,40,.5);
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(104,184,40,.6);
+        box-shadow: unset
+    }
+
+.style-checkbox {
+    padding: 6px 12px;
+    display: block;
+    border: none;
+    width: 10%;
+    height: 16px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.mt5 {
+    margin-top: 5px
+}
+
+.mt10 {
+    margin-top: 1px
+}
+
+.mt15 {
+    margin-top: 15px
+}
+
+.mt20 {
+    margin-top: 20px
+}
+
+.mt25 {
+    margin-top: 25px
+}
+
+.tab-pane .panel-default {
+    margin-bottom: unset;
+}
+
+    .tab-pane .panel-default .panel-heading h5 {
+        font-size: 15px;
+    }
+
+.tab-pane .panel .panel-body {
+    color: unset;
+}
+
+    .tab-pane .panel .panel-body label {
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: unset;
+    }
+
+
+.page-container .main-content .page-title {
+    margin: -20px;
+    margin-bottom: 30px;
+    padding: 10px 0;
+}
+
+.page-container .main-content .panel-default {
+    margin: -20px;
+}
+
+.sidebar-menu .main-menu {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+.sidebar-menu {
+    width: 230px;
+}
+
+.page-container .main-content-table {
+    display: table-cell;
+    position: relative;
+    z-index: 1;
+    padding: 0px;
+    padding-bottom: 0;
+    vertical-align: top;
+    word-break: break-word;
+    width: 100%;
+}
+
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 1000px;
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    resize: horizontal;
+    overflow: auto;
+    /*-webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);*/
+}
+
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+
+.navbar-form {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 10px 15px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);
+    margin-top: 16.5px;
+    margin-bottom: 16.5px
+}
+
+.user-info-navbar {
+    background-color: #fff;
+    min-height: 0;
+    border: 0;
+    padding: 0;
+    margin: -30px;
+    margin-bottom: 30px
+}
+
+    .user-info-navbar .user-info-menu {
+        margin: 0
+    }
+
+        .user-info-navbar .user-info-menu li {
+            line-height: 1;
+            min-height: unset
+        }
+
+        .user-info-navbar .user-info-menu > li {
+            border-bottom: unset
+        }
+
+            .user-info-navbar .user-info-menu > li > a {
+                position: relative;
+                display: block;
+                padding: 15px 20px;
+                color: #979898;
+                border-bottom: 1px solid #fff;
+                top: 1px;
+                z-index: 5;
+                text-decoration: none
+            }
+
+            .user-info-navbar .user-info-menu > li > form {
+                position: relative;
+                display: block;
+                padding: 15px 20px;
+                padding-bottom: unset;
+                margin: 0;
+                border-bottom: 1px solid #fff
+            }
+
+            .user-info-navbar .user-info-menu > li.search-form .search-field, .navbar.horizontal-menu .navbar-inner > .nav > li.search-form .search-field {
+                height: 15px;
+            }
+
+.nav.nav-tabs > li {
+    padding:unset;
+    margin:unset;
+}
+
+.nav.nav-tabs > li > a{
+    padding: 3px;
+    margin: 3px;
+    font-size: 13px
+}
+
+.nav.nav-tabs>li.active{
+    background-color: rgba(104,184,40,.5);
+}
+
+@media (max-width:767px) {
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        box-shadow: none
+    }
+
+        .navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
+            padding: 5px 15px 5px 25px
+        }
+
+        .navbar-nav .open .dropdown-menu > li > a {
+            line-height: 18px
+        }
+
+            .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
+                background-image: none
+            }
+}
+
+@media (min-width:768px) {
+    .navbar-nav {
+        float: left;
+        margin: 0
+    }
+
+        .navbar-nav > li {
+            float: left
+        }
+
+            .navbar-nav > li > a {
+                padding-top: 23.5px;
+                padding-bottom: 23.5px
+            }
+}
+
+@media (min-width:768px) {
+    .navbar-nav {
+        float: left;
+        margin: 0
+    }
+
+        .navbar-nav > li {
+            float: left
+        }
+
+            .navbar-nav > li > a {
+                padding-top: 7px;
+                padding-bottom: 7px
+            }
+}
