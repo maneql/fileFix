@@ -1,20 +1,25 @@
 
 
 .form-input-group h5 {
-    color: rgba(35,187,252,1);
+    color: #40bbea;
     font-size: 16px
 }
 
+.form-group {
+    padding: 10px;
+}
+
+.form-control {
+    height: 30px
+}
+
 .form-input-group label {
-    font-size: 12px;
-    font-weight: bold;
-    margin-bottom: unset;
+    font-size: 14px;
     padding-top: 2px
 }
 
 .form-input-group input {
-    font-size: 12px;
-    height: 22px
+    font-size: 14px;
 }
 
 .style-input {
@@ -34,13 +39,7 @@
         box-shadow: unset
     }
 
-.style-checkbox {
-    padding: 6px 12px;
-    display: block;
-    border: none;
-    width: 10%;
-    height: 16px;
-}
+
 
 .bold {
     font-weight: bold;
@@ -86,7 +85,6 @@
 
 
 .page-container .main-content .page-title {
-    margin: -20px;
     margin-bottom: 30px;
     padding: 10px 0;
 }
@@ -230,14 +228,21 @@
     margin:unset;
 }
 
-.nav.nav-tabs > li > a{
-    padding: 3px;
-    margin: 3px;
-    font-size: 13px
-}
+    .nav.nav-tabs > li > a {
+        padding: 5px;
+        margin: 3px;
+        font-size: 13px;
+        
+    }
 
-.nav.nav-tabs>li.active{
-    background-color: rgba(104,184,40,.5);
+    .nav.nav-tabs > li.active > a {
+        background-color: #40bbea;
+        color: #fff
+    }
+
+.page-container .main-content .page-title .title-env {
+    float: left;
+    padding-left: 20px;
 }
 
 @media (max-width:767px) {
@@ -262,6 +267,10 @@
             .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
                 background-image: none
             }
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 1px solid #ccc;
 }
 
 @media (min-width:768px) {
